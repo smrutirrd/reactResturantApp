@@ -1,0 +1,79 @@
+import React from 'react'
+
+const menuAPI = [
+    {
+    id:1,
+    image:"/image/BreadTea.jpeg",
+    name:"BreadTea",
+    category:"breakfast",
+    price:"25$",
+    description:"loremsdadada",
+    },
+    {
+    id:2,
+    image:"/image/Maggi.jpeg",
+    name:"maggi",
+    category:"breakfast",
+    price:"35$",
+    description:"loremsdadada",
+    },
+    {
+    id:3,
+    image:"/image/BraedHotDogs.jpeg",
+    name:"BreadHotDogs",
+    category:"breakfast",
+    price:"35$",
+    description:"loremsdadada",
+    },
+    {
+    id:4,
+    image:"/image/lunch1.jpg",
+    name:"RotiThali",
+    category:"lunch",
+    price:"25$",
+    description:"loremsdadada",
+    },
+    {
+    id:5,
+    image:"/image/lunch2.jpg",
+    name:"RiceThali",
+    category:"lunch",
+    price:"35$",
+    description:"loremsdadada",
+    },
+    {
+    id:6,
+    image:"/image/Thali.jpeg",
+    name:"SouthThali",
+    category:"lunch",
+    price:"35$",
+    description:"loremsdadada",
+    },
+    {   
+    id:7,
+    image:"/image/dinner1.jpeg",
+    name:"lightdinner",
+    category:"dinner",
+    price:"35$",
+    description:"loremsdadada",
+    },
+    {
+    id:8,
+    image:"/image/dinner2.jpg",
+    name:"heavydinner",
+    category:"dinner",
+    price:"35$",
+    description:"loremsdadada",
+    },
+    {
+    id:9,
+    image:"/image/dinner3.jpeg",
+    name:"avrgdinner",
+    category:"dinner",
+    price:"35$",
+    description:"loremsdadada",
+    },
+];
+
+export default menuAPI
+

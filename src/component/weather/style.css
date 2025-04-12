@@ -1,0 +1,162 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #2c2c2c;
+    color: #333;
+    height: 100vh;
+  }
+  
+  /* Search Section */
+  .wrap {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  .search {
+    display: flex;
+    border-radius: 25px;
+    overflow: hidden;
+    background: #1c1c1c;
+  }
+  
+  .searchTerm {
+    padding: 10px 20px;
+    width: 250px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .searchButton {
+    background: #00b4cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .searchButton:hover {
+    background: #0099a8;
+  }
+  
+  /* Weather Card */
+  .widget {
+    width: 380px;
+    margin: auto;
+    background-color: #f5f5f5;
+    border-radius: 16px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+  
+  /* Weather Icon */
+  .weatherIcon {
+    padding: 30px 0;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    color: #000;
+  }
+  
+  /* Weather Info */
+  .weatherInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .temparature span {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .description {
+    text-align: left;
+  }
+  
+  .weathercondition {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  .place {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .date {
+    background-color: #54c0c5;
+    color: white;
+    font-size: 14px;
+    padding: 15px;
+    width: 120px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  /* Extra Temperature Section */
+  .extra-temp {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 10px;
+  }
+  
+  /* Top and bottom row containers */
+  .temp-info-minmax,
+  .weather-extra-info {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .two-sided-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .two-sided-section .wi {
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #54c0c5;
+  }
+  
+  .extra-info-leftside {
+    font-size: 13px;
+  }
+  
+  /* Responsive for smaller screens */
+  @media screen and (max-width: 420px) {
+    .widget {
+      width: 90%;
+    }
+  
+    .searchTerm {
+      width: 180px;
+    }
+  
+    .date {
+      display: none;
+    }
+  }
+  
